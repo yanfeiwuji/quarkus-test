@@ -17,7 +17,9 @@ dependencies {
     implementation(enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}"))
 
     implementation("io.quarkus:quarkus-resteasy")
-//    implementation("io.quarkus:quarkus-keycloak-authorization")
+
+    implementation("io.quarkus:quarkus-keycloak-authorization")
+
     implementation("io.quarkus:quarkus-hibernate-validator")
     implementation("io.quarkus:quarkus-hibernate-orm-panache-kotlin")
     implementation("io.quarkus:quarkus-kotlin")
